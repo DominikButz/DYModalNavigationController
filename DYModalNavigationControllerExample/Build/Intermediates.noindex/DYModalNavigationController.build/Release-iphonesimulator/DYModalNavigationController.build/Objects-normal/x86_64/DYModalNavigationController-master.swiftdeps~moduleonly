@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "239f3737f4941840ce1ea0184087e216"
+build_time: [1554788625, 392876000]
+inputs:
+  "/Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/DYModalNavigationController/DYModalNavigationController.swift": [9223372036, 854775807]
+  "/Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/DYModalNavigationController/DYModalNavigationControllerSettings.swift": [9223372036, 854775807]

@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'DYModalNavigationController/**/*'
-  #s.exclude_files = 'DYModalNavigationController/**/*.plist'
+  s.exclude_files = 'DYModalNavigationController/**/*.plist'
 
 
   s.public_header_files = 'DYModalNavigationController/**/*.h'

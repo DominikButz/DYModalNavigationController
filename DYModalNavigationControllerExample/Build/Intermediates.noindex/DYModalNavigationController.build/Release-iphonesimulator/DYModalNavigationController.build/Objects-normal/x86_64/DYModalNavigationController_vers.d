@@ -1,0 +1,2 @@
+dependencies: \
+  /Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/DYModalNavigationControllerExample/Build/Intermediates.noindex/DYModalNavigationController.build/Release-iphonesimulator/DYModalNavigationController.build/DerivedSources/DYModalNavigationController_vers.c
