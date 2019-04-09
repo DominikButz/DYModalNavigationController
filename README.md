@@ -1,8 +1,8 @@
 # DYModalNavigationController
 
-[![Version](https://img.shields.io/cocoapods/v/DYModalNavigationController.svg?style=flat)](http://cocoapods.org/pods/DYBadge)
-[![License](https://img.shields.io/cocoapods/l/DYBadge.svg?style=flat)](http://cocoapods.org/pods/DYBadge)DYModalNavigationController
-[![Platform](https://img.shields.io/cocoapods/p/DYModalNavigationController.svg?style=flat)](http://cocoapods.org/pods/DYModalNavigationController)
+[![Version](https://img.shields.io/cocoapods/v/DYModalNavigationController.svg?style=flat)](https://cocoapods.org/pods/DYModalNavigationController)
+[![License](https://img.shields.io/cocoapods/l/DYBadge.svg?style=flat)](https://cocoapods.org/pods/DYModalNavigationController)
+[![Platform](https://img.shields.io/cocoapods/p/DYModalNavigationController.svg?style=flat)](https://cocoapods.org/pods/DYModalNavigationController)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 
