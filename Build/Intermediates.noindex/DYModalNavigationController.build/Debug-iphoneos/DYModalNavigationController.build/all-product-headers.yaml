@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/Build/Products/Debug-iphoneos/DYModalNavigationController.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DYModalNavigationController-Swift.h",
+          'external-contents': "/Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/Build/Products/Debug-iphoneos/DYModalNavigationController.framework/Headers/DYModalNavigationController-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DYModalNavigationController.h",
+          'external-contents': "/Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/DYModalNavigationController/DYModalNavigationController.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/Build/Products/Debug-iphoneos/DYModalNavigationController.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/Build/Intermediates.noindex/DYModalNavigationController.build/Debug-iphoneos/DYModalNavigationController.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

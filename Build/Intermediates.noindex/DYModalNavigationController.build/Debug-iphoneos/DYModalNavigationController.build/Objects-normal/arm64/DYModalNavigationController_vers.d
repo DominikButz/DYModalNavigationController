@@ -1,0 +1,2 @@
+dependencies: \
+  /Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/Build/Intermediates.noindex/DYModalNavigationController.build/Debug-iphoneos/DYModalNavigationController.build/DerivedSources/DYModalNavigationController_vers.c

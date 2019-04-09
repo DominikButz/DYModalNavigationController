@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/DYModalNavigationControllerExample/Build/Products/Debug-iphonesimulator/DYModalNavigationController.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/DYModalNavigationControllerExample/Build/Intermediates.noindex/DYModalNavigationController.build/Debug-iphonesimulator/DYModalNavigationController.build/unextended-module.modulemap",
+    }]
+  }]
+}

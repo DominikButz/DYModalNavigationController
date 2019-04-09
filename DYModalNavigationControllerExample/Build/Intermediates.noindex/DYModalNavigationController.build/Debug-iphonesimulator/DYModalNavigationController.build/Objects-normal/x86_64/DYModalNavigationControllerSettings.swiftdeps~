@@ -1,0 +1,230 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DYModalNavigationControllerSettings"
+provides-nominal:
+- "27DYModalNavigationController0abC8SettingsV"
+- "27DYModalNavigationController0abC8SettingsV16BackgroundEffectO"
+- "27DYModalNavigationController0abC8SettingsV13AnimationTypeO"
+- "27DYModalNavigationController0abC8SettingsV14SlideDirectionO"
+provides-member:
+- ["27DYModalNavigationController0abC8SettingsV", ""]
+- ["27DYModalNavigationController0abC8SettingsV16BackgroundEffectO", ""]
+- ["27DYModalNavigationController0abC8SettingsV13AnimationTypeO", ""]
+- ["27DYModalNavigationController0abC8SettingsV14SlideDirectionO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "CGColor"
+- "CGFloat"
+- "CGSize"
+- "DYModalNavigationControllerSettings"
+- "Float"
+- "FloatLiteralType"
+- "TimeInterval"
+- "UIBlurEffect"
+- "UIColor"
+depends-member:
+- ["27DYModalNavigationController0abC8SettingsV13AnimationTypeO", "=="]
+- ["27DYModalNavigationController0abC8SettingsV13AnimationTypeO", "__derived_enum_equals"]
+- ["27DYModalNavigationController0abC8SettingsV13AnimationTypeO", "_rawHashValue"]
+- ["27DYModalNavigationController0abC8SettingsV13AnimationTypeO", "deinit"]
+- ["27DYModalNavigationController0abC8SettingsV13AnimationTypeO", "fadeInOut"]
+- ["27DYModalNavigationController0abC8SettingsV13AnimationTypeO", "hash"]
+- ["27DYModalNavigationController0abC8SettingsV13AnimationTypeO", "hashValue"]
+- ["27DYModalNavigationController0abC8SettingsV13AnimationTypeO", "slideInOut"]
+- ["27DYModalNavigationController0abC8SettingsV16BackgroundEffectO", "=="]
+- ["27DYModalNavigationController0abC8SettingsV16BackgroundEffectO", "__derived_enum_equals"]
+- ["27DYModalNavigationController0abC8SettingsV16BackgroundEffectO", "_rawHashValue"]
+- ["27DYModalNavigationController0abC8SettingsV16BackgroundEffectO", "blur"]
+- ["27DYModalNavigationController0abC8SettingsV16BackgroundEffectO", "deinit"]
+- ["27DYModalNavigationController0abC8SettingsV16BackgroundEffectO", "dim"]
+- ["27DYModalNavigationController0abC8SettingsV16BackgroundEffectO", "hash"]
+- ["27DYModalNavigationController0abC8SettingsV16BackgroundEffectO", "hashValue"]
+- ["27DYModalNavigationController0abC8SettingsV16BackgroundEffectO", "none"]
+- ["So6CGSizeV", "init"]
+- ["s7CVarArgP", "Style"]
+- ["s7CVarArgP", "cgColor"]
+- ["s7CVarArgP", "darkGray"]
+- ["s7CVarArgP", "withAlphaComponent"]
+- ["s28CustomDebugStringConvertibleP", "Style"]
+- ["s28CustomDebugStringConvertibleP", "cgColor"]
+- ["s28CustomDebugStringConvertibleP", "darkGray"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "withAlphaComponent"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "Style"]
+- ["s23CustomStringConvertibleP", "cgColor"]
+- ["s23CustomStringConvertibleP", "darkGray"]
+- ["s23CustomStringConvertibleP", "withAlphaComponent"]
+- ["27DYModalNavigationController0abC8SettingsV", "AnimationType"]
+- ["27DYModalNavigationController0abC8SettingsV", "BackgroundEffect"]
+- ["27DYModalNavigationController0abC8SettingsV", "CGColor"]
+- ["27DYModalNavigationController0abC8SettingsV", "CGFloat"]
+- ["27DYModalNavigationController0abC8SettingsV", "CGSize"]
+- ["27DYModalNavigationController0abC8SettingsV", "Float"]
+- ["27DYModalNavigationController0abC8SettingsV", "SlideDirection"]
+- ["27DYModalNavigationController0abC8SettingsV", "TimeInterval"]
+- ["27DYModalNavigationController0abC8SettingsV", "UIBlurEffect"]
+- ["27DYModalNavigationController0abC8SettingsV", "UIColor"]
+- ["27DYModalNavigationController0abC8SettingsV", "animationType"]
+- ["27DYModalNavigationController0abC8SettingsV", "appearTransitionDuration"]
+- ["27DYModalNavigationController0abC8SettingsV", "backgroundEffect"]
+- ["27DYModalNavigationController0abC8SettingsV", "blurEffectStyle"]
+- ["27DYModalNavigationController0abC8SettingsV", "bottomMargin"]
+- ["27DYModalNavigationController0abC8SettingsV", "cornerRadius"]
+- ["27DYModalNavigationController0abC8SettingsV", "dimEffectColor"]
+- ["27DYModalNavigationController0abC8SettingsV", "dismissTransitionDuration"]
+- ["27DYModalNavigationController0abC8SettingsV", "init"]
+- ["27DYModalNavigationController0abC8SettingsV", "leftMagin"]
+- ["27DYModalNavigationController0abC8SettingsV", "rightMargin"]
+- ["27DYModalNavigationController0abC8SettingsV", "shadowColor"]
+- ["27DYModalNavigationController0abC8SettingsV", "shadowOffset"]
+- ["27DYModalNavigationController0abC8SettingsV", "shadowOpacity"]
+- ["27DYModalNavigationController0abC8SettingsV", "shadowRadius"]
+- ["27DYModalNavigationController0abC8SettingsV", "slideInDirection"]
+- ["27DYModalNavigationController0abC8SettingsV", "slideOutDirection"]
+- ["27DYModalNavigationController0abC8SettingsV", "topMargin"]
+- ["Se", "init"]
+- ["SE", "init"]
+- ["SQ", "=="]
+- ["SQ", "Style"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "bottom"]
+- ["SQ", "cgColor"]
+- ["SQ", "darkGray"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "none"]
+- ["SQ", "regular"]
+- ["SQ", "slideInOut"]
+- ["SQ", "top"]
+- ["SQ", "withAlphaComponent"]
+- ["SH", "=="]
+- ["SH", "Style"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "bottom"]
+- ["SH", "cgColor"]
+- ["SH", "darkGray"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "none"]
+- ["SH", "regular"]
+- ["SH", "slideInOut"]
+- ["SH", "top"]
+- ["SH", "withAlphaComponent"]
+- !private ["s6HasherV", "combine"]
+- ["So8NSCodingP", "Style"]
+- ["So8NSCodingP", "cgColor"]
+- ["So8NSCodingP", "darkGray"]
+- ["So8NSCodingP", "withAlphaComponent"]
+- ["So9NSCopyingP", "Style"]
+- ["So9NSCopyingP", "cgColor"]
+- ["So9NSCopyingP", "darkGray"]
+- ["So9NSCopyingP", "withAlphaComponent"]
+- ["So21NSItemProviderReadingP", "cgColor"]
+- ["So21NSItemProviderReadingP", "darkGray"]
+- ["So21NSItemProviderReadingP", "withAlphaComponent"]
+- ["So21NSItemProviderWritingP", "cgColor"]
+- ["So21NSItemProviderWritingP", "darkGray"]
+- ["So21NSItemProviderWritingP", "withAlphaComponent"]
+- ["So8NSObjectC", "Style"]
+- ["So8NSObjectC", "cgColor"]
+- ["So8NSObjectC", "darkGray"]
+- ["So8NSObjectC", "withAlphaComponent"]
+- ["So8NSObjectP", "Style"]
+- ["So8NSObjectP", "cgColor"]
+- ["So8NSObjectP", "darkGray"]
+- ["So8NSObjectP", "withAlphaComponent"]
+- ["So14NSSecureCodingP", "Style"]
+- ["So14NSSecureCodingP", "cgColor"]
+- ["So14NSSecureCodingP", "darkGray"]
+- ["So14NSSecureCodingP", "withAlphaComponent"]
+- ["SY", "regular"]
+- ["27DYModalNavigationController0abC8SettingsV14SlideDirectionO", "=="]
+- ["27DYModalNavigationController0abC8SettingsV14SlideDirectionO", "__derived_enum_equals"]
+- ["27DYModalNavigationController0abC8SettingsV14SlideDirectionO", "_rawHashValue"]
+- ["27DYModalNavigationController0abC8SettingsV14SlideDirectionO", "bottom"]
+- ["27DYModalNavigationController0abC8SettingsV14SlideDirectionO", "deinit"]
+- ["27DYModalNavigationController0abC8SettingsV14SlideDirectionO", "hash"]
+- ["27DYModalNavigationController0abC8SettingsV14SlideDirectionO", "hashValue"]
+- ["27DYModalNavigationController0abC8SettingsV14SlideDirectionO", "left"]
+- ["27DYModalNavigationController0abC8SettingsV14SlideDirectionO", "right"]
+- ["27DYModalNavigationController0abC8SettingsV14SlideDirectionO", "top"]
+- ["So17UIBlurEffectStyleV", "regular"]
+- ["So12UIBlurEffectC", "Style"]
+- ["So7UIColorC", "cgColor"]
+- ["So7UIColorC", "darkGray"]
+- ["So7UIColorC", "withAlphaComponent"]
+- ["So14UIVisualEffectC", "Style"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s26_ExpressibleByColorLiteralP", "cgColor"]
+- ["s26_ExpressibleByColorLiteralP", "darkGray"]
+- ["s26_ExpressibleByColorLiteralP", "withAlphaComponent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Style"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "cgColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "darkGray"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "withAlphaComponent"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "27DYModalNavigationController0abC8SettingsV13AnimationTypeO"
+- "27DYModalNavigationController0abC8SettingsV16BackgroundEffectO"
+- "So6CGSizeV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "27DYModalNavigationController0abC8SettingsV"
+- "Se"
+- "SE"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "SY"
+- "27DYModalNavigationController0abC8SettingsV14SlideDirectionO"
+- "So17UIBlurEffectStyleV"
+- "So12UIBlurEffectC"
+- "So7UIColorC"
+- "So14UIVisualEffectC"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/DYModalNavigationController/DYModalNavigationController.h"
+- "/Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/DYModalNavigationControllerExample/Build/Intermediates.noindex/DYModalNavigationController.build/Debug-iphonesimulator/DYModalNavigationController.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0f84d0471a73effd1d244684ad8bc78f"

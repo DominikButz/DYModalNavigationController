@@ -1,0 +1,11 @@
+framework module DYModalNavigationController {
+  umbrella header "DYModalNavigationController.h"
+
+  export *
+  module * { export * }
+}
+
+module DYModalNavigationController.Swift {
+    header "DYModalNavigationController-Swift.h"
+    requires objc
+}
