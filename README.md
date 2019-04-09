@@ -58,15 +58,16 @@ Check out the following examples.
 ```Swift
 
  override func viewDidLoad() {
+ 
    super.viewDidLoad()
    
 
         let size = CGSize(width: 300, height: 200)
         var settings = DYModalNavigationControllerSettings()
-  			settings.slideInDirection = .right
+  		   settings.slideInDirection = .right
         settings.slideOutDirection = .right
         settings.backgroundEffect = .blur
-        self.navController = DYModalNavigationController(rootViewController: contentVC(), fixedSize: size, settings: settings)
+        self.navController = DYModalNavigationController(rootViewController: 			contentVC(), fixedSize: size, settings: settings)
   
    
  }
@@ -85,10 +86,10 @@ Check out the following examples.
 	
         var settings = DYModalNavigationControllerSettings()
   			settings.animationType  = .fadeInOut
-  			// background effect .none is default setting!
-        self.navController = DYModalNavigationController(rootViewController: contentVC(), fixedSize: nil, settings: settings)
-        // with fixedSize nil, the size will be set according to the top, bottom, left, right margins in the settings. 
-	}
+  			// animationType .slideInOut is default setting!
+        self.navController = DYModalNavigationController(rootViewController: 			contentVC(), fixedSize: nil, settings: settings)
+        // with fixedSize nil, the size will be set according to the top, bottom, 			left, right margins in the settings. 
+}
 ```
 ![DYModalNavigationController example](./gitResources/DYModalNavigationController2-small.gif "DYModalNavigationController example 2") 
 
