@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DYModalNavigationController-Swift.h</key>
 		<data>
-		h+dbEDeJbwF1zZ6PGcTjceVTgqI=
+		UIkCwquRTA6M5k7VJw27AeNSBoU=
 		</data>
 		<key>Headers/DYModalNavigationController.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ytIVqoxuXO1SPJRDPKt/nuzGtD0=
+		ttKpFhE8SRRxWV/971IyAtDRzf8=
 		</data>
 		<key>Modules/DYModalNavigationController.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		mDEM6jByQtlS4lfT29Cm4+Z3thM=
+		lysRWpnSwWUchvtplAkeNLN2RN0=
 		</data>
 		<key>Modules/DYModalNavigationController.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		HwxpnmZzAos/P2NgSnUuA75C7Y8=
+		SEyM69bLWFi33QBK3YROqKIfMi8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VbbK/V3zKpIbPeXskoEXjHlF2r3Zos/9fULPwKebnQc=
+			Rj7YL4JIFdaCLrWozHolm9b0v1kgsEqlwSNZvSaMj+A=
 			</data>
 		</dict>
 		<key>Headers/DYModalNavigationController.h</key>
@@ -49,14 +49,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			48JFstmINVBON5i2BjgvfD9GAhMENeRhJTcAl+GWC8g=
+			rnEaPKPF0THD1BUqykTHyV1Imx1wOq3aBiLp/za/2A8=
 			</data>
 		</dict>
 		<key>Modules/DYModalNavigationController.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bzGGgDMBbJnmx/wr6C+osHIkDJhNo9ZRsgHhZPKuzYA=
+			kDGQwP3hD3OBG9bIrmszXhZLUjSS2oUTDT2FKkY2jB0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

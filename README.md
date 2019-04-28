@@ -10,7 +10,7 @@
  * present a small size view controller with rounded edges over the current context modally (e.g. if the content is rather small and the standard modal presentation would show a lot of empty space). Set a fixed size so that the navigation controller's size is not adjusted when the screen orientation changes. 
  *  present a modal view controller over the current context with top, bottom, left, right margins with a fade in transition. The presenting view controller behind it is still visible at the margins (unless margins set to 0). The size adjusts automatically when the screen orientation changes.
 
-## Example
+## Example project
 
 To checkout the example project, simply clone the repo or download the zip file. 
 
@@ -57,20 +57,12 @@ Check out the following examples.
 
 ```Swift
 
- override func viewDidLoad() {
- 
-   super.viewDidLoad()
-   
-
-        let size = CGSize(width: 300, height: 200)
-        var settings = DYModalNavigationControllerSettings()
-  		   settings.slideInDirection = .right
-        settings.slideOutDirection = .right
-        settings.backgroundEffect = .blur
-        self.navController = DYModalNavigationController(rootViewController: 			contentVC(), fixedSize: size, settings: settings)
-  
-   
- }
+   let size = CGSize(width: 300, height: 200)
+   var settings = DYModalNavigationControllerSettings()
+	   settings.slideInDirection = .right
+   settings.slideOutDirection = .right
+   settings.backgroundEffect = .blur
+   self.navController = DYModalNavigationController(rootViewController: 			contentVC(), fixedSize: size, settings: settings)
 
 ```
 
@@ -80,23 +72,40 @@ Check out the following examples.
 
  
 ```Swift
-
- override func viewDidLoad() {
-	    super.viewDidLoad()
 	
-        var settings = DYModalNavigationControllerSettings()
-  			settings.animationType  = .fadeInOut
-  			// animationType .slideInOut is default setting!
-        self.navController = DYModalNavigationController(rootViewController: 			contentVC(), fixedSize: nil, settings: settings)
-        // with fixedSize nil, the size will be set according to the top, bottom, 			left, right margins in the settings. 
-}
+   var settings = DYModalNavigationControllerSettings()
+		settings.animationType  = .fadeInOut
+		// animationType .slideInOut is default setting!
+   self.navController = DYModalNavigationController(rootViewController: 			contentVC(), fixedSize: nil, settings: settings)
+   // with fixedSize nil, the size will be set according to the top, bottom, 			left, right margins in the settings. 
+
 ```
 ![DYModalNavigationController example](./gitResources/DYModalNavigationController2-small.gif "DYModalNavigationController example 2") 
 
+### Code example: DYModalNavigationController with custom animations
+ 
+```Swift
+
+   var settings = DYModalNavigationControllerSettings()
+		settings.animationType = .custom
+   self.navController = DYModalNavigationController(rootViewController: 			contentVC(), fixedSize: size, settings: settings, customPresentationAnimation: { (transitionContext) in
+   
+   self.foldOut(transitionContext: transitionContext, navController: self.navController)
+   
+       }, customDismissalAnimation: { (transitionContext) in
+           
+    self.foldIn(transitionContext: transitionContext, navController: self.navController)
+    
+       })
+
+```
+![DYModalNavigationController example](./gitResources/DYModalNavigationController3.gif "DYModalNavigationController example 3") 
 
 ## Change log
-#### [Version 1.0](https://github.com/DominikButz/DYBadge/releases/tag/1.0)
+#### [Version 1.0](https://github.com/DominikButz/DYModalNavigationController/releases/tag/1.0)
 initial version.
+#### [Version 1.1](https://github.com/DominikButz/DYModalNavigationController/releases/tag/1.1)
+added customPresentationAnimation and customDismissalAnimation to the initializer. 
 
 
 ## Author

@@ -36,7 +36,7 @@ public struct DYModalNavigationControllerSettings {
     }
     
    public  enum AnimationType {
-        case slideInOut, fadeInOut
+        case slideInOut, fadeInOut, custom
     }
     
    public  enum SlideDirection {

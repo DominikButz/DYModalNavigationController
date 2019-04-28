@@ -15,18 +15,19 @@ public class DYModalNavigationController: UINavigationController, UIViewControll
 
     fileprivate var isPresenting = false
     
-    fileprivate var backgroundEffectView: UIView?
+    public var backgroundEffectView: UIView?
     
     fileprivate var fixedSize: CGSize?
     
-    
+    fileprivate var customPresentationAnimation: ((_ transitionContext: UIViewControllerContextTransitioning)->())?
+    fileprivate var customDismissalAnimation: ((_ transitionContext: UIViewControllerContextTransitioning)->())?
     /// Initializer of a DYModalNavigationController
     ///
     /// - Parameters:
     ///  - rootViewController: the first view controller of the nav controller stack
     ///  - fixedSize: the size of the navigation controller instance view. If this optional is set, the top, left and right margins (see settings) will be ignored and the nav controller will be centered horizontally in its parent view controller view. Set a fixed size, if the nav controller should not change its size when changing the screen orientation.
     ///   - settings: instance of a  DYModalNavigationControllerSettings struct. if set to nil, the default values will be used instead.
-  public init(rootViewController: UIViewController, fixedSize: CGSize?, settings: DYModalNavigationControllerSettings?) {
+    public init(rootViewController: UIViewController, fixedSize: CGSize?, settings: DYModalNavigationControllerSettings?, customPresentationAnimation: ((_ transitionContext: UIViewControllerContextTransitioning)->())? = nil, customDismissalAnimation: ((_ transitionContext: UIViewControllerContextTransitioning)->())? = nil) {
         
         super.init(rootViewController: rootViewController)
         
@@ -38,6 +39,9 @@ public class DYModalNavigationController: UINavigationController, UIViewControll
             self.preferredContentSize = fixedSize!
             self.fixedSize = fixedSize
         }
+        self.customPresentationAnimation = customPresentationAnimation
+        self.customDismissalAnimation = customDismissalAnimation
+        
     }
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
@@ -184,6 +188,12 @@ extension DYModalNavigationController: UIViewControllerAnimatedTransitioning {
                     self.animateSlideIn(transitionContext: transitionContext)
                 case .fadeInOut:
                     self.animateFadeIn(transitionContext: transitionContext)
+                case .custom:
+                    if let _ = self.customPresentationAnimation {
+                        self.customPresentationAnimation!(transitionContext)
+                    } else {
+                        assertionFailure("Animation type custom requires implementing a custom presentation animation")
+                    }
             }
 
         }
@@ -198,6 +208,12 @@ extension DYModalNavigationController: UIViewControllerAnimatedTransitioning {
                 self.animateSlideOut(transitionContext: transitionContext)
             case .fadeInOut:
                 self.animateFadeOut(transitionContext: transitionContext)
+            case .custom:
+                if let _ = self.customDismissalAnimation {
+                    self.customDismissalAnimation!(transitionContext)
+                } else {
+                    assertionFailure("Animation type custom requires implementing a custom dissmissal animation")
+                }
         }
     
     }

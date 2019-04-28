@@ -12,7 +12,7 @@ import DYModalNavigationController
 
 enum Examples: Int, CaseIterable  {
   
-    case smallFixedSizeSlide01, smallFixedSizeSlide02, smallFixedSizeSlide03, adaptableLargeSizeFade01
+    case smallFixedSizeSlide01, smallFixedSizeSlide02, smallFixedSizeSlide03, adaptableLargeSizeFade01, custom
     
     func title()->String {
         
@@ -25,6 +25,8 @@ enum Examples: Int, CaseIterable  {
             return "Small Fixed Size Slide with background dim"
         case .adaptableLargeSizeFade01:
             return "Adaptable Large Size Fade with shadow"
+        case .custom:
+            return "Custom Example"
         }
     }
     
@@ -120,12 +122,53 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             settings.animationType  = .fadeInOut
             settings.shadowOpacity = 0.8
              self.navController = DYModalNavigationController(rootViewController: contentVC(), fixedSize: nil, settings: settings)
+        case 4:
+            settings.animationType = .custom
+            self.navController = DYModalNavigationController(rootViewController: contentVC(), fixedSize: size, settings: settings, customPresentationAnimation: { (transitionContext) in
+                self.foldOut(transitionContext: transitionContext, navController: self.navController)
+            }, customDismissalAnimation: { (transitionContext) in
+                
+                self.foldIn(transitionContext: transitionContext, navController: self.navController)
+            })
+            
         default:
             print("not defined")
         }
 
         self.present(self.navController!, animated: true, completion: nil)
         
+        
+    }
+    
+    func foldOut(transitionContext: UIViewControllerContextTransitioning, navController: DYModalNavigationController) {
+        
+        let toView = transitionContext.view(forKey: .to)!
+        let container = transitionContext.containerView
+        // starting transform:
+        toView.transform = CGAffineTransform(scaleX: 1.0, y: 1.0).concatenating(CGAffineTransform(scaleX: 0.0, y: 1.0))
+  
+        container.addSubview(toView)
+        
+        UIView.animate(withDuration: navController.transitionDuration(using: transitionContext), animations: { () -> Void in
+            toView.transform =  CGAffineTransform.identity
+          
+        }, completion: { completed in
+             transitionContext.completeTransition(completed)
+        })
+        
+    }
+    
+    func foldIn(transitionContext: UIViewControllerContextTransitioning, navController: DYModalNavigationController)  {
+        
+         let fromView  = transitionContext.view(forKey: .from)
+        
+        UIView.animate(withDuration: navController.transitionDuration(using: transitionContext), animations: { () -> Void in
+            
+            fromView!.transform = CGAffineTransform(scaleX: 1.0, y: 0.01)
+            
+        }, completion: { completed in
+             transitionContext.completeTransition(completed)
+        })
         
     }
     
