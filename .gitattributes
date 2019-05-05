@@ -1,2 +1,8 @@
 *.h linguist-language=Swift
 *.swift linguist-language=Swift
+*.xcodeproj linguist-language=Swift
+
+Carthage/* linguist-vendored
+Build/* linguist-vendored
+Index/* linguist-vendored
+
