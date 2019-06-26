@@ -42,15 +42,15 @@
 		</data>
 		<key>Frameworks/DYModalNavigationController.framework/DYModalNavigationController</key>
 		<data>
-		po3sc1+dqBlsX5Z1ylNIH98ARrY=
+		GpTInRrCbP8oAWS04u0i4lSJzZg=
 		</data>
 		<key>Frameworks/DYModalNavigationController.framework/Info.plist</key>
 		<data>
-		ttKpFhE8SRRxWV/971IyAtDRzf8=
+		SykzsfKKLeMiSQo11j6Ebfa/t9c=
 		</data>
 		<key>Frameworks/DYModalNavigationController.framework/_CodeSignature/CodeResources</key>
 		<data>
-		AxfgLxWT9ggd/NCzjK3SRq52PAE=
+		2sq/hcsJodBbsVJH5X0NRNIIfXI=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RZ2LLHH90t/529UZVr8nxl41Iaw=
+		DHjqIBRQEe4mzrmX+KAY6jYlJp0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -186,21 +186,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c4pEYESLrcQ0xNdCSOHPa9RvrRF+MrHi1fugkjjmFo8=
+			/SUEaO/zlo4QdrknlZ9EIRIvortW2bxSsjN3fEhLxUk=
 			</data>
 		</dict>
 		<key>Frameworks/DYModalNavigationController.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VyJIgpW053u3RlaE1cySPo0KuUI4ymGudLpzioQIKcU=
+			Wj4rop7Kmq9xXbX28oHTLsux7ut8k5vUPlTbMQb6hxg=
 			</data>
 		</dict>
 		<key>Frameworks/DYModalNavigationController.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			11h0zv2QksAVie11GFALLQiLYhWyA3DwZYXVC6ppZHQ=
+			IFhYhJpUqcONUr5xsme7WfIHDDRwbHdkYZQbyUkhT5c=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>

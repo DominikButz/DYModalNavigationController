@@ -31,7 +31,7 @@ Installation through Cocoapods or Carthage is recommended.
 Cocoapods:
 
 target '[project name]' do
- 	pod 'DYModalNavigationController', '~> 1.0
+ 	pod 'DYModalNavigationController'
 end
 
 Carthage: Simply add the following line to your Cartfile.
@@ -66,7 +66,7 @@ Check out the following examples.
 
 ```
 
-![DYModalNavigationController example](./gitResources/DYModalNavigationController1-small.gif "DYModalNavigationController example 1") 
+![DYModalNavigationController example](https://raw.githubusercontent.com/DominikButz/DYModalNavigationController/master/gitResources/DYModalNavigationController1-small.gif "DYModalNavigationController example 1") 
 
 ### Code example: DYModalNavigationController with margins and fade effect 
 
@@ -80,7 +80,8 @@ Check out the following examples.
    // with fixedSize nil, the size will be set according to the top, bottom, 			left, right margins in the settings. 
 
 ```
-![DYModalNavigationController example](./gitResources/DYModalNavigationController2-small.gif "DYModalNavigationController example 2") 
+
+![DYModalNavigationController example](https://raw.githubusercontent.com/DominikButz/DYModalNavigationController/master/gitResources/DYModalNavigationController2-small.gif "DYModalNavigationController example 2") 
 
 ### Code example: DYModalNavigationController with custom animations
  
@@ -99,13 +100,18 @@ Check out the following examples.
        })
 
 ```
-![DYModalNavigationController example](./gitResources/DYModalNavigationController3.gif "DYModalNavigationController example 3") 
+
+![DYModalNavigationController example](https://raw.githubusercontent.com/DominikButz/DYModalNavigationController/master/gitResources/DYModalNavigationController3.gif "DYModalNavigationController example 3") 
 
 ## Change log
-#### [Version 1.0](https://github.com/DominikButz/DYModalNavigationController/releases/tag/1.0)
-initial version.
+#### [Version 1.2](https://github.com/DominikButz/DYModalNavigationController/releases/tag/1.2)
+added backgroundEffectView as accessible parameter in the customAnimation closures.
+
 #### [Version 1.1](https://github.com/DominikButz/DYModalNavigationController/releases/tag/1.1)
 added customPresentationAnimation and customDismissalAnimation to the initializer. 
+
+#### [Version 1.0](https://github.com/DominikButz/DYModalNavigationController/releases/tag/1.0)
+initial version.
 
 
 ## Author

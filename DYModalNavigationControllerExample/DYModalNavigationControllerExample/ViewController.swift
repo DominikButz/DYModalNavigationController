@@ -124,11 +124,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
              self.navController = DYModalNavigationController(rootViewController: contentVC(), fixedSize: nil, settings: settings)
         case 4:
             settings.animationType = .custom
-            self.navController = DYModalNavigationController(rootViewController: contentVC(), fixedSize: size, settings: settings, customPresentationAnimation: { (transitionContext) in
-                self.foldOut(transitionContext: transitionContext, navController: self.navController)
-            }, customDismissalAnimation: { (transitionContext) in
+            self.navController = DYModalNavigationController(rootViewController: contentVC(), fixedSize: size, settings: settings, customPresentationAnimation: { (transitionContext, backgroundEffectView) in
+                self.foldOut(transitionContext: transitionContext, duration: settings.appearTransitionDuration)
+            }, customDismissalAnimation: { (transitionContext, backgroundEffectView) in
                 
-                self.foldIn(transitionContext: transitionContext, navController: self.navController)
+                self.foldIn(transitionContext: transitionContext, duration: settings.dismissTransitionDuration)
             })
             
         default:
@@ -140,7 +140,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
     }
     
-    func foldOut(transitionContext: UIViewControllerContextTransitioning, navController: DYModalNavigationController) {
+    func foldOut(transitionContext: UIViewControllerContextTransitioning, duration: TimeInterval) {
         
         let toView = transitionContext.view(forKey: .to)!
         let container = transitionContext.containerView
@@ -149,7 +149,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
   
         container.addSubview(toView)
         
-        UIView.animate(withDuration: navController.transitionDuration(using: transitionContext), animations: { () -> Void in
+        UIView.animate(withDuration: duration, animations: { () -> Void in
             toView.transform =  CGAffineTransform.identity
           
         }, completion: { completed in
@@ -158,11 +158,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
     }
     
-    func foldIn(transitionContext: UIViewControllerContextTransitioning, navController: DYModalNavigationController)  {
+    func foldIn(transitionContext: UIViewControllerContextTransitioning, duration: TimeInterval)  {
         
          let fromView  = transitionContext.view(forKey: .from)
         
-        UIView.animate(withDuration: navController.transitionDuration(using: transitionContext), animations: { () -> Void in
+        UIView.animate(withDuration: duration, animations: { () -> Void in
             
             fromView!.transform = CGAffineTransform(scaleX: 1.0, y: 0.01)
             
