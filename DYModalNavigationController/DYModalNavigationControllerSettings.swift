@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// settings for the DYModalNavController. Create an instance of this struct, then modify its properties and use it in the DYModalNavController initializer.
 public struct DYModalNavigationControllerSettings {
     
     public var topMargin: CGFloat = 20.0
@@ -15,6 +16,8 @@ public struct DYModalNavigationControllerSettings {
     public var leftMagin:CGFloat = 20.0
     public  var rightMargin: CGFloat = 20.0
     public var cornerRadius: CGFloat = 20.0
+    /// set this property if you only want some corners rounded. E.g.: [.layerMaxXMinYCorner, .layerMinXMinYCorner] - top right and top left corner.
+    public var cornerMask: CACornerMask?
     public   var appearTransitionDuration: TimeInterval = 0.5
     public  var dismissTransitionDuration: TimeInterval = 0.5
     

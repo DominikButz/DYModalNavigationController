@@ -9,6 +9,7 @@
  DYModalNavigationController is a simple UINavigationController subclass written in Swift 5.0. Use cases:
  * present a small size view controller with rounded edges over the current context modally (e.g. if the content is rather small and the standard modal presentation would show a lot of empty space). Set a fixed size so that the navigation controller's size is not adjusted when the screen orientation changes. 
  *  present a modal view controller over the current context with top, bottom, left, right margins with a fade in transition. The presenting view controller behind it is still visible at the margins (unless margins set to 0). The size adjusts automatically when the screen orientation changes.
+ *  works in a SwiftUI project even without using UIViewControllerRepresentable. Simply create an instance of the DYModalNavigationController and call present() on the instance (available from version 1.2.1)
 
 ## Example project
 
@@ -104,6 +105,8 @@ Check out the following examples.
 ![DYModalNavigationController example](https://raw.githubusercontent.com/DominikButz/DYModalNavigationController/master/gitResources/DYModalNavigationController3.gif "DYModalNavigationController example 3") 
 
 ## Change log
+#### [Version 1.2.1](https://github.com/DominikButz/DYModalNavigationController/releases/tag/1.2.1)
+Added customMask as property in DYModalNavigationControllerSettings (allows rounding a subset of corners). Added extension for SwiftUI with present function. 
 #### [Version 1.2](https://github.com/DominikButz/DYModalNavigationController/releases/tag/1.2)
 added backgroundEffectView as accessible parameter in the customAnimation closures.
 

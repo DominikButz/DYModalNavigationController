@@ -43,6 +43,8 @@ public class DYModalNavigationController: UINavigationController, UIViewControll
         self.customPresentationAnimation = customPresentationAnimation
         self.customDismissalAnimation = customDismissalAnimation
         
+    
+        
     }
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
@@ -170,8 +172,12 @@ extension DYModalNavigationController: UIViewControllerAnimatedTransitioning {
         // Apply some styling
         do {
             toView.layer.masksToBounds = true
+            toView.clipsToBounds = true
             toView.layer.cornerRadius = settings.cornerRadius
-            
+            if settings.cornerMask != nil {
+                toView.layer.maskedCorners = settings.cornerMask!
+            }
+    
             // shadow only works properly if there is no effect view
            if settings.backgroundEffect == .none {
                 container.layer.shadowOpacity = settings.shadowOpacity
@@ -315,6 +321,52 @@ extension DYModalNavigationController: UIViewControllerAnimatedTransitioning {
     }
     
 
+}
+
+
+
+@available(iOS 13.0, *) public extension DYModalNavigationController {
+    /// use this function in iOS 13 with SwiftUI to present the DYAlertController instance.
+    func present() {
+        
+        if let controller = UIViewController.topMostViewController() {
+            controller.present(self, animated: true)
+        }
+    }
+}
+
+@available(iOS 13.0, *) public extension UIViewController {
+    
+    static private func keyWindow() -> UIWindow? {
+        return UIApplication.shared.connectedScenes
+        .filter {$0.activationState == .foregroundActive}
+        .compactMap {$0 as? UIWindowScene}
+        .first?.windows.filter {$0.isKeyWindow}.first
+    }
+
+    static func topMostViewController()-> UIViewController? {
+        guard let rootController = keyWindow()?.rootViewController else {
+            return nil
+        }
+        return topMostViewController(for: rootController)
+    }
+
+    static private func topMostViewController(for controller: UIViewController) -> UIViewController {
+        if let presentedController = controller.presentedViewController {
+            return topMostViewController(for: presentedController)
+        } else if let navigationController = controller as? UINavigationController {
+            guard let topController = navigationController.topViewController else {
+                return navigationController
+            }
+            return topMostViewController(for: topController)
+        } else if let tabController = controller as? UITabBarController {
+            guard let topController = tabController.selectedViewController else {
+                return tabController
+            }
+            return topMostViewController(for: topController)
+        }
+        return controller
+    }
 }
 
 

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DYModalNavigationController-Swift.h</key>
 		<data>
-		UIkCwquRTA6M5k7VJw27AeNSBoU=
+		NqeK9RhPsvSjUudeLEJ4tUyd9fc=
 		</data>
 		<key>Headers/DYModalNavigationController.h</key>
 		<data>
@@ -14,15 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SykzsfKKLeMiSQo11j6Ebfa/t9c=
+		0dw8bC1+JLzfhkqhpFLNzfkpocs=
+		</data>
+		<key>Modules/DYModalNavigationController.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		JzOinhn8WfhAxcvmWtwMvz5a0Lc=
+		</data>
+		<key>Modules/DYModalNavigationController.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		+QqfksxQz1GFsg+NPxXc3AqdeOY=
 		</data>
 		<key>Modules/DYModalNavigationController.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Yfk5MAaMqS/7K8IFOMSAtDjUqKM=
+		JzOinhn8WfhAxcvmWtwMvz5a0Lc=
 		</data>
 		<key>Modules/DYModalNavigationController.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		qBjHVkkM9firjLD+xZV8xY15VjQ=
+		+QqfksxQz1GFsg+NPxXc3AqdeOY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rj7YL4JIFdaCLrWozHolm9b0v1kgsEqlwSNZvSaMj+A=
+			Ejhgul4V+A8PtX5iHFTYaDKNA6ppwjH5dRAKSYJIq+g=
 			</data>
 		</dict>
 		<key>Headers/DYModalNavigationController.h</key>
@@ -45,18 +53,32 @@
 			06TViItBOUhiJ/g1x26tfl9As/m2Azw+xC4wc+bQIhs=
 			</data>
 		</dict>
+		<key>Modules/DYModalNavigationController.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VemozuHL8HuILIU8UQhmN4LtAXPQCY9df2BTHqM/zJM=
+			</data>
+		</dict>
+		<key>Modules/DYModalNavigationController.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IxqDFETQ4FifFeq/LNZ6UXFVlKuaVjnoMWDVHsmWOMs=
+			</data>
+		</dict>
 		<key>Modules/DYModalNavigationController.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DSWtlK8hJUJ3gWv2qR/GSF039UeA+S1/Rq3xPY68g6I=
+			VemozuHL8HuILIU8UQhmN4LtAXPQCY9df2BTHqM/zJM=
 			</data>
 		</dict>
 		<key>Modules/DYModalNavigationController.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8XlT0AhhLUeSy8IFAwP31OZG+svz7xDenIYq2pfD+n8=
+			IxqDFETQ4FifFeq/LNZ6UXFVlKuaVjnoMWDVHsmWOMs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
