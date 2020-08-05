@@ -132,7 +132,7 @@ extension DYModalNavigationController: UIViewControllerAnimatedTransitioning {
    fileprivate func present(with transitionContext: UIViewControllerContextTransitioning) {
         
         let container = transitionContext.containerView
-        
+
         // can be nil if set to none in settings
        self.backgroundEffectView = self.getbackgroundEffectView(container.bounds)
         if let _  = self.backgroundEffectView {
@@ -156,7 +156,7 @@ extension DYModalNavigationController: UIViewControllerAnimatedTransitioning {
                 //set height and width
                 toView.heightAnchor.constraint(equalToConstant: fixedSize!.height).isActive = true
                 toView.widthAnchor.constraint(equalToConstant: fixedSize!.width).isActive = true
-
+                toView.bottomAnchor.constraint(equalTo: container.bottomAnchor, constant: 0).isActive = true
                 
             } else {
                 // no fixed size, use margin constraints instead
@@ -329,7 +329,7 @@ extension DYModalNavigationController: UIViewControllerAnimatedTransitioning {
     /// use this function in iOS 13 with SwiftUI to present the DYAlertController instance.
     func present() {
         
-        if let controller = UIViewController.topMostViewController() {
+        if let controller = UIViewController.topMostViewControllerForPresentation(){
             controller.present(self, animated: true)
         }
     }
@@ -344,7 +344,7 @@ extension DYModalNavigationController: UIViewControllerAnimatedTransitioning {
         .first?.windows.filter {$0.isKeyWindow}.first
     }
 
-    static func topMostViewController()-> UIViewController? {
+    static func topMostViewControllerForPresentation()-> UIViewController? {
         guard let rootController = keyWindow()?.rootViewController else {
             return nil
         }

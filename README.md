@@ -105,6 +105,8 @@ Check out the following examples.
 ![DYModalNavigationController example](https://raw.githubusercontent.com/DominikButz/DYModalNavigationController/master/gitResources/DYModalNavigationController3.gif "DYModalNavigationController example 3") 
 
 ## Change log
+#### [Version 1.2.2](https://github.com/DominikButz/DYModalNavigationController/releases/tag/1.2.2)
+The nav controller is not bound to the bottom anchor of the container view when presenting. the constraint only works if the nav controller has a fixed size and enters the screen from the top or bottom. This change prevents a gap on devices with large safe area at the bottom of the screen (like iPhone 11 etc.). 
 #### [Version 1.2.1](https://github.com/DominikButz/DYModalNavigationController/releases/tag/1.2.1)
 Added customMask as property in DYModalNavigationControllerSettings (allows rounding a subset of corners). Added extension for SwiftUI with present function. 
 #### [Version 1.2](https://github.com/DominikButz/DYModalNavigationController/releases/tag/1.2)

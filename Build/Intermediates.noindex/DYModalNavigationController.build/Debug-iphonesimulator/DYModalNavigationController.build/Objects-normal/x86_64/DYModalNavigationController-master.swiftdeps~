@@ -1,6 +1,6 @@
-version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
-options: "bea03367e22f8301c8967f282f6b7e5c"
-build_time: [1578902208, 236113000]
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "273e25e9ac0e08ea2b03f2528df0d839"
+build_time: [1596535568, 121903000]
 inputs:
-  "/Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/DYModalNavigationController/DYModalNavigationController.swift": [1578901046, 667653545]
-  "/Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/DYModalNavigationController/DYModalNavigationControllerSettings.swift": [1578901557, 726117982]
+  "/Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/DYModalNavigationController/DYModalNavigationController.swift": [1596535567, 997531090]
+  "/Users/Dominik/Documents/Programmieren/Libraries/DYModalNavigationController/DYModalNavigationController/DYModalNavigationControllerSettings.swift": [1578901557, 0]

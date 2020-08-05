@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DYModalNavigationController-Swift.h</key>
 		<data>
-		UIkCwquRTA6M5k7VJw27AeNSBoU=
+		SBZHW9+p8jpf742ahPXS6RUUzig=
 		</data>
 		<key>Headers/DYModalNavigationController.h</key>
 		<data>
@@ -14,15 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ttKpFhE8SRRxWV/971IyAtDRzf8=
+		YR9jxiqeftu9smBFiQcXMy5G17c=
+		</data>
+		<key>Modules/DYModalNavigationController.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		Jv9u+wm6lHGhvOQeb8q2FFsMU9g=
+		</data>
+		<key>Modules/DYModalNavigationController.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<data>
+		Jv9u+wm6lHGhvOQeb8q2FFsMU9g=
+		</data>
+		<key>Modules/DYModalNavigationController.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		9s4Udmc8aEDMb60TTLXUMRikSUo=
+		</data>
+		<key>Modules/DYModalNavigationController.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		0k1e7yK0/7krhkscEox8CQXha8Y=
 		</data>
 		<key>Modules/DYModalNavigationController.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		lysRWpnSwWUchvtplAkeNLN2RN0=
+		9s4Udmc8aEDMb60TTLXUMRikSUo=
 		</data>
 		<key>Modules/DYModalNavigationController.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		SEyM69bLWFi33QBK3YROqKIfMi8=
+		0k1e7yK0/7krhkscEox8CQXha8Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rj7YL4JIFdaCLrWozHolm9b0v1kgsEqlwSNZvSaMj+A=
+			yz6XznxOQzgZnLYb2pomSK4eoVv5Abm7zNNRSiDulGE=
 			</data>
 		</dict>
 		<key>Headers/DYModalNavigationController.h</key>
@@ -45,18 +61,46 @@
 			06TViItBOUhiJ/g1x26tfl9As/m2Azw+xC4wc+bQIhs=
 			</data>
 		</dict>
+		<key>Modules/DYModalNavigationController.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xmB1roKSZMGtfOOFFm/VbsaCymVMnG8/vMrzUzYpZO8=
+			</data>
+		</dict>
+		<key>Modules/DYModalNavigationController.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xmB1roKSZMGtfOOFFm/VbsaCymVMnG8/vMrzUzYpZO8=
+			</data>
+		</dict>
+		<key>Modules/DYModalNavigationController.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WQVwe4N57MJChLB3KF9y3ulXCrQsadGCiEyl1fNOrz8=
+			</data>
+		</dict>
+		<key>Modules/DYModalNavigationController.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VIy0nP5i9x0BcI8Cp1308BFgVPTQbm/1WDEzUpi6Nt8=
+			</data>
+		</dict>
 		<key>Modules/DYModalNavigationController.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rnEaPKPF0THD1BUqykTHyV1Imx1wOq3aBiLp/za/2A8=
+			WQVwe4N57MJChLB3KF9y3ulXCrQsadGCiEyl1fNOrz8=
 			</data>
 		</dict>
 		<key>Modules/DYModalNavigationController.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kDGQwP3hD3OBG9bIrmszXhZLUjSS2oUTDT2FKkY2jB0=
+			VIy0nP5i9x0BcI8Cp1308BFgVPTQbm/1WDEzUpi6Nt8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
