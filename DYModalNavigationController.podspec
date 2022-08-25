@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DYModalNavigationController'
-  s.version          = '1.2.2'
+  s.version          = '1.2.3'
   s.summary          = 'UINavigationController subclass with support for custom size and present and dismiss animations.'
   s.swift_version = '5.0'
 

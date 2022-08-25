@@ -147,7 +147,7 @@ extension DYModalNavigationController: UIViewControllerAnimatedTransitioning {
             container.addSubview(toView)
             
             // Specify a minimum bottom margin
-            let bottom = max(self.settings.bottomMargin - toView.safeAreaInsets.bottom, 0)
+            let bottom = min(self.settings.bottomMargin - toView.safeAreaInsets.bottom, 0)
             container.safeAreaLayoutGuide.bottomAnchor.constraint(equalTo: toView.bottomAnchor, constant: bottom).isActive = true
             
             if self.fixedSize != nil {
